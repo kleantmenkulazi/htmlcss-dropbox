@@ -16,6 +16,7 @@ html{
 #header-top{
     display: flex;
     justify-content: space-between;
+    height: 30px;
 }
 #header-top ul{
     list-style: none;
@@ -28,6 +29,16 @@ html{
     padding: 4px 8px;
     text-decoration: none;
 }
+#header-bottom{
+    padding: 50px 0;
+}
+#header-bottom > div{
+    position: relative;
+}
+#header-bottom .jumbotron{
+    position: absolute;
+    width: 100%;
+}
 
 /* debug */
 .debug header{
@@ -39,8 +50,6 @@ html{
 .debug #header-top > * {
     background-color: red;
 }
-
-
 .debug #header-bottom {
     background-color: yellow;
 }
