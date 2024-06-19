@@ -7,12 +7,27 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
+/* general */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /* header */
 #header-top{
     display: flex;
     justify-content: space-between;
 }
-
+#header-top ul{
+    list-style: none;
+}
+#header-top ul li{
+    display: inline-block;
+}
+#header-top ul li a{
+    display: inline-block;
+    padding: 4px 8px;
+    text-decoration: none;
+}
 
 /* debug */
 .debug header{
@@ -21,9 +36,20 @@ html{
 .debug #header-top {
     background-color: blue;
 }
-.debug #header-bottom {
-    background-color: blue;
+.debug #header-top > * {
+    background-color: red;
 }
+
+
+.debug #header-bottom {
+    background-color: yellow;
+}
+.debug #header-bottom .jumbotron{
+    background-color: pink;
+    min-height: 300px;
+}
+
+
 /* main */
 
 /* footer */
