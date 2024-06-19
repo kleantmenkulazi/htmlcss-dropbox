@@ -7,13 +7,23 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
+/* header */
+#header-top{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* debug */
-
-
-/* header */
-
+.debug header{
+    background-color: blueviolet;
+}
+.debug #header-top {
+    background-color: blue;
+}
+.debug #header-bottom {
+    background-color: blue;
+}
 /* main */
 
 /* footer */
