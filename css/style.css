@@ -73,6 +73,12 @@ display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.plans-body ul li{
+    list-style: none;
+}
+.blue-check{
+    color: blue;
+}
 /* header */
 #header-top{
     display: flex;
