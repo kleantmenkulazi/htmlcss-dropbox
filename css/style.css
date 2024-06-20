@@ -21,6 +21,13 @@ display: flex;
 .info-container .big-info{
     width: 70%;
 }
+.small-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.mar-bot-20{
+   margin-bottom: 20px; 
+}
 /* header */
 #header-top{
     display: flex;
@@ -51,6 +58,13 @@ display: flex;
 .tutto-ciò{
     text-align: center;
     margin-top: 20px;
+}
+/* main */
+main{
+    padding-top: 100px;
+}
+main h2{
+    margin-bottom: 40px;
 }
 
 
