@@ -79,6 +79,15 @@ display: flex;
 .blue-check{
     color: blue;
 }
+.big-info > *{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.small-info .bottoni-liste{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 /* header */
 #header-top{
     display: flex;
