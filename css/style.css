@@ -28,6 +28,12 @@ display: flex;
 .mar-bot-20{
    margin-bottom: 20px; 
 }
+.info-container .alternative-size .small-info{
+    width: 40%;
+}
+.info-container .alternative-size .big-info{
+    width: 60%;
+}
 /* header */
 #header-top{
     display: flex;
@@ -66,7 +72,39 @@ main{
 main h2{
     margin-bottom: 40px;
 }
+.columns-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.columns-container > * {
+    width: 30%;
+}
+.columns-container .bigger-columns > * {
+    width: 32%;
+}
+#plans > * {
+    border: 1px solid black;
+}
+#plans > :last-child {
+    width: 100%;
+    margin-top: 20px;
+}
+#plans > * .plans-title {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+#plans > * .plans-body {
+    padding: 10px;
+}
+main > section{
+    margin-bottom: 50px;
+}
+#features > * {
+    margin-bottom: 20px;
 
+}
 
 /* debug */
 .debug header{
@@ -97,7 +135,10 @@ main h2{
 .debug .big-info{
     background-color: grey; 
 }
+.debug #features > *{
+    background-color: blueviolet;
 
+}
 
 
 /* main */
