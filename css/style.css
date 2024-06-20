@@ -12,6 +12,15 @@ html{
     max-width: 1000px;
     margin: 0 auto;
 }
+.info-container{
+display: flex;
+}
+.info-container .small-info{
+    width: 30%;
+}
+.info-container .big-info{
+    width: 70%;
+}
 /* header */
 #header-top{
     display: flex;
@@ -39,6 +48,11 @@ html{
     position: absolute;
     width: 100%;
 }
+.tutto-ciò{
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 /* debug */
 .debug header{
@@ -52,11 +66,24 @@ html{
 }
 .debug #header-bottom {
     background-color: yellow;
+    height: 300px;
 }
 .debug #header-bottom .jumbotron{
     background-color: pink;
     min-height: 300px;
 }
+.debug .info-container{
+    background-color: green; 
+    min-height: 200px;
+}
+.debug .small-info{
+    background-color: rgb(70, 0, 128); 
+   
+}
+.debug .big-info{
+    background-color: grey; 
+}
+
 
 
 /* main */
