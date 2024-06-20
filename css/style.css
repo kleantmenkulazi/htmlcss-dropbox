@@ -105,7 +105,40 @@ main > section{
     margin-bottom: 20px;
 
 }
+.background-aqua{
+    background-color: aqua;
+}
+#cta-business{
+    padding: 40px 0;
+}
+/* footer */
+footer{
+    background: black;
+    color: white;
+}
+#footer-top{
+padding: 50px 0;
+}
+#footer-bottom{
+    padding: 30px 0;
 
+}
+.footer-columns{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-columns > * {
+    width: 20%;
+}
+.footer-columns > * ul {
+    list-style: none;
+}
+.footer-columns > * ul li a{
+    display: inline-block;
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+}
 /* debug */
 .debug header{
     background-color: blueviolet;
@@ -139,8 +172,3 @@ main > section{
     background-color: blueviolet;
 
 }
-
-
-/* main */
-
-/* footer */
