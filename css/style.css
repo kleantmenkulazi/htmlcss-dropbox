@@ -111,6 +111,22 @@ main > section{
 #cta-business{
     padding: 40px 0;
 }
+.squares-container{
+    display: flex;
+    margin-top: 60px;
+}
+.squares-container > .square{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+.squares-container > .square.composed{
+    display: flex;
+    flex-wrap: wrap;
+}
+.squares-container > .square > .sub-square{
+    width: 50%;
+    height: 50%;
+}
 /* footer */
 footer{
     background: black;
@@ -170,5 +186,26 @@ padding: 50px 0;
 }
 .debug #features > *{
     background-color: blueviolet;
+
+}
+.debug .square{
+    min-height: 300px;
+    background-color: chocolate;
+    border: 5px dashed aquamarine;
+}
+.debug .sub-square:nth-child(1){
+    background-color: red;
+
+}
+.debug .sub-square:nth-child(2){
+    background-color: yellow;
+
+}
+.debug .sub-square:nth-child(3){
+    background-color: blue;
+
+}
+.debug .sub-square:nth-child(4){
+    background-color: green;
 
 }
